@@ -29,7 +29,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
 
-    implementation("com.h2database:h2")
+    implementation("org.postgresql:postgresql:42.6.0")
     implementation("org.jetbrains.exposed:exposed-spring-boot-starter:$exposedVersion")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
